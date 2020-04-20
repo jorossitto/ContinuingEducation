@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>gamedemo.game &#8212; PythonWork 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <h1>Source code for gamedemo.game</h1><div class="highlight"><pre>
+<span></span><span class="n">__author__</span> <span class="o">=</span> <span class="s2">&quot;Joseph Rossitto&quot;</span>
+
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">from</span> <span class="nn">gamedemo.weapons</span> <span class="kn">import</span> <span class="n">Sword</span><span class="p">,</span> <span class="n">FireBreath</span>
+<span class="kn">from</span> <span class="nn">gamedemo.player</span> <span class="kn">import</span> <span class="n">Player</span>
+
+
+<div class="viewcode-block" id="Game"><a class="viewcode-back" href="../../gamedemo.html#gamedemo.game.Game">[docs]</a><span class="k">class</span> <span class="nc">Game</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">player1</span><span class="p">,</span> <span class="n">player2</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">p1</span> <span class="o">=</span> <span class="n">player1</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">p2</span> <span class="o">=</span> <span class="n">player2</span>
+
+<div class="viewcode-block" id="Game.run"><a class="viewcode-back" href="../../gamedemo.html#gamedemo.game.Game.run">[docs]</a>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">p1</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">p2</span><span class="p">)</span>
+        <span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">p1</span><span class="o">.</span><span class="n">isAlive</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">p2</span><span class="o">.</span><span class="n">isAlive</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">([</span><span class="kc">True</span><span class="p">,</span> <span class="kc">False</span><span class="p">]):</span>
+                <span class="n">attacker</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">p1</span>
+                <span class="n">defender</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">p2</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">attacker</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">p2</span>
+                <span class="n">defender</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">p1</span>
+            <span class="n">dmg</span><span class="p">,</span> <span class="n">sound</span> <span class="o">=</span> <span class="n">attacker</span><span class="o">.</span><span class="n">weapon</span><span class="o">.</span><span class="n">attack</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">attacker</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;attacks:&quot;</span><span class="p">,</span> <span class="n">sound</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">attacker</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;did&quot;</span><span class="p">,</span> <span class="n">dmg</span><span class="p">,</span> <span class="s2">&quot;damage&quot;</span><span class="p">)</span>
+            <span class="n">defender</span><span class="o">.</span><span class="n">takeHit</span><span class="p">(</span><span class="n">dmg</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="n">attacker</span><span class="o">.</span><span class="n">name</span><span class="p">,</span> <span class="s2">&quot;won with&quot;</span><span class="p">,</span> <span class="n">attacker</span><span class="o">.</span><span class="n">health</span><span class="p">,</span> <span class="s2">&quot;health left&quot;</span><span class="p">)</span></div></div>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
+    <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">()</span>
+    <span class="n">g</span> <span class="o">=</span> <span class="n">Game</span><span class="p">(</span><span class="n">Player</span><span class="p">(</span><span class="s2">&quot;The Knight&quot;</span><span class="p">,</span> <span class="n">Sword</span><span class="p">()),</span> <span class="n">Player</span><span class="p">(</span><span class="s2">&quot;The Dragon&quot;</span><span class="p">,</span> <span class="n">FireBreath</span><span class="p">()))</span>
+    <span class="n">g</span><span class="o">.</span><span class="n">run</span><span class="p">()</span>
+</pre></div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../index.html">PythonWork</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../gamedemo.html">gamedemo package</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Rossitto.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

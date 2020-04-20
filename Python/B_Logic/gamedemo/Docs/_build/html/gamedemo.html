@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>gamedemo package &#8212; PythonWork 0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to PythonWork’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="gamedemo-package">
+<h1>gamedemo package<a class="headerlink" href="#gamedemo-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-gamedemo.game">
+<span id="gamedemo-game-module"></span><h2>gamedemo.game module<a class="headerlink" href="#module-gamedemo.game" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="gamedemo.game.Game">
+<em class="property">class </em><code class="sig-prename descclassname">gamedemo.game.</code><code class="sig-name descname">Game</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">player1</span></em>, <em class="sig-param"><span class="n">player2</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gamedemo/game.html#Game"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#gamedemo.game.Game" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="gamedemo.game.Game.run">
+<code class="sig-name descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gamedemo/game.html#Game.run"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#gamedemo.game.Game.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gamedemo.player">
+<span id="gamedemo-player-module"></span><h2>gamedemo.player module<a class="headerlink" href="#module-gamedemo.player" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="gamedemo.player.Player">
+<em class="property">class </em><code class="sig-prename descclassname">gamedemo.player.</code><code class="sig-name descname">Player</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="n">weapon</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gamedemo/player.html#Player"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#gamedemo.player.Player" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="gamedemo.player.Player.isAlive">
+<em class="property">property </em><code class="sig-name descname">isAlive</code><a class="headerlink" href="#gamedemo.player.Player.isAlive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if the player is alive
+:return: Returns true if the player is alive</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="gamedemo.player.Player.takeHit">
+<code class="sig-name descname">takeHit</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">damage</span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/gamedemo/player.html#Player.takeHit"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#gamedemo.player.Player.takeHit" title="Permalink to this definition">¶</a></dt>
+<dd><p>A player takes a hit from a source
+:param damage: How much damage is taken
+:return: How much health is left after</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gamedemo.weapons">
+<span id="gamedemo-weapons-module"></span><h2>gamedemo.weapons module<a class="headerlink" href="#module-gamedemo.weapons" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="gamedemo.weapons.FireBreath">
+<em class="property">class </em><code class="sig-prename descclassname">gamedemo.weapons.</code><code class="sig-name descname">FireBreath</code><a class="reference internal" href="_modules/gamedemo/weapons.html#FireBreath"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#gamedemo.weapons.FireBreath" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="gamedemo.weapons.FireBreath.fireBreath">
+<code class="sig-name descname">fireBreath</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gamedemo/weapons.html#FireBreath.fireBreath"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#gamedemo.weapons.FireBreath.fireBreath" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="gamedemo.weapons.Sword">
+<em class="property">class </em><code class="sig-prename descclassname">gamedemo.weapons.</code><code class="sig-name descname">Sword</code><a class="reference internal" href="_modules/gamedemo/weapons.html#Sword"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#gamedemo.weapons.Sword" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="gamedemo.weapons.Sword.sword">
+<code class="sig-name descname">sword</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/gamedemo/weapons.html#Sword.sword"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#gamedemo.weapons.Sword.sword" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Sword Like Weapon
+:return: True</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gamedemo">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-gamedemo" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">PythonWork</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">gamedemo package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gamedemo.game">gamedemo.game module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gamedemo.player">gamedemo.player module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gamedemo.weapons">gamedemo.weapons module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gamedemo">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to PythonWork’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Rossitto.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.0.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/gamedemo.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
