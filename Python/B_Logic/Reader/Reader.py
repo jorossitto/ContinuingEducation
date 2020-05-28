@@ -1,6 +1,6 @@
 import os
 
-from Reader.compressed import bzipped, gzipped
+from B_Logic.Reader.compressed import bzipped, gzipped
 
 extentsion_map = {
     '.bz2' : bzipped.opener,
