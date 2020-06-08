@@ -104,7 +104,7 @@ def CorrelationMatrix():
     sns.heatmap(data.corr(), cmap = 'summer', annot = True, vmin = -1, vmax = 1)
     plt.show()
 
-#Machine Learning
+#MachineLearning
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 #from sklearn.tree import DecisionTreeClassifier
