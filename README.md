@@ -1,19 +1,10 @@
-# github-upload
+List of Features
 
-
-
-How to navigate ->
-
-Machine Learning - has python work related to the subject of machine learning
-
-TSQL -> has the TSQL stored procedures and views used in Gradebook
-
-Gradebook ->  is an integration project containing continuing education work and merging it into a single working application
-
-Links to my continuing education profiles
-
-Plural Sight - https://app.pluralsight.com/profile/joseph-rossitto
-Data Camp - https://www.datacamp.com/profile/joRossitto
-Salesforce - https://trailblazer.me/id/rossitto
+Python -
+	Stocks -
+		Trade stocks based on RSI and Moving Average.
+		Get quotes fast from daily look ups
+		Visualize Trends Graphically and see when to buy or sell
+		Optimize your portfolo based on historical trends using machine learning
 
 if you have any questions on navigation and use email jorossitto@hotmail.com

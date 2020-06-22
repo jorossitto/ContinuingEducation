@@ -21,3 +21,6 @@ class configs:
     ENCODER ='encoder'
     PASSTHROUGH = 'passthrough'
     STARTUPS = '../C_Data/50STARTUPS.csv'
+    POSITIONSALARIES = '../C_Data/PositionSalaries.csv'
+    CATPICTURE = '../C_Data/cat.jpg'
+    CARDIO_DATA = '../C_Data/CardioData.csv'
