@@ -24,3 +24,7 @@ class configs:
     POSITIONSALARIES = '../C_Data/PositionSalaries.csv'
     CATPICTURE = '../C_Data/cat.jpg'
     CARDIO_DATA = '../C_Data/CardioData.csv'
+    HAAR_EYE = '../C_Data/haarcascade_eye.xml'
+    HAAR_FACE = '../C_Data/haarcascade_frontalface_default.xml'
+    BASKETBALL_PLAYERS = '../C_Data/basketballPlayers.jpg'
+    MORE_PLAYERS = '../C_Data/morePlayers.jpg'

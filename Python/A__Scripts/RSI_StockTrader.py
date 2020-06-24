@@ -52,3 +52,33 @@ RSI = 100 - (100/(1+ relativeStrength))
 plt.figure(figsize=(12.2, 4.5))
 RSI.plot()
 plt.show()
+
+#Create a new DataFrame
+RSIData = pd.DataFrame()
+RSIData[configs.ADJ_CLOSE] = fbQuote[configs.ADJ_CLOSE]
+RSIData['RSI'] = RSI
+print(RSIData.head(10))
+
+#Visually Show the Adjusted Close Price and RSI
+
+#Plot the adjusted close price
+plt.figure(figsize=(12.2, 4.5))
+plt.plot(RSIData.index, RSIData[configs.ADJ_CLOSE])
+plt.title(configs.ADJ_CLOSE)
+plt.legend(RSIData.columns.values, loc = 'upper left')
+plt.show()
+
+#plot the corresponding RSI Values and significatnt levels
+plt.figure(figsize=(12.2, 4.5))
+plt.title('RSI Plot')
+plt.plot(RSIData.index, RSIData['RSI'])
+plt.axhline(0, linestyle='--', alpha = .5, color='grey')
+plt.axhline(10, linestyle='--', alpha = .5, color='orange')
+plt.axhline(20, linestyle='--', alpha = .5, color='green')
+plt.axhline(30, linestyle='--', alpha = .5, color='red')
+plt.axhline(70, linestyle='--', alpha = .5, color='red')
+plt.axhline(80, linestyle='--', alpha = .5, color='green')
+plt.axhline(90, linestyle='--', alpha = .5, color='orange')
+plt.axhline(100, linestyle='--', alpha = .5, color='grey')
+plt.show()
+
