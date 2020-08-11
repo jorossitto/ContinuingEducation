@@ -14,6 +14,11 @@ namespace AppCore.FormsUI
         [STAThread]
         static void Main()
         {
+            Application.Run(new NeuralNetworkForm());
+        }
+
+        private static void SamuraiForm()
+        {
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);

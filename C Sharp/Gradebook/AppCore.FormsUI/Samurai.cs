@@ -25,7 +25,7 @@ namespace AppCore.FormsUI
             samuraiListBox.SelectedItem = data.SamuraisListInMemory();
             //this.samuraiViewSource = (BindingList<Samurai>)FindResource(config.samuraiViewSource);
             this.isLoading = false;
-            samuraiListBox.SelectedIndex = 0;
+            //samuraiListBox.SelectedIndex = 0;
         }
         private void samuraiListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
