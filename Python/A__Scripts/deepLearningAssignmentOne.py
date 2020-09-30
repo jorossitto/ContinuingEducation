@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import glob
 
+import sympy as sym
+
 
 def ProblemOne():
     x = [1,2,3,4,5,6,7,8,9,10]
@@ -15,13 +17,19 @@ def ProblemTwo():
         print(*item)
     plt.plot(y)
     plt.show()
-
 def ProblemThree():
     x1 = [1, 1,2,2]
     x2 = [2.2,2.4,2.5,2.7]
     y = [0,1,0,1]
     dataset = [x1, x2, y]
     Nuron(dataset)
+
+def Derivitive(function):
+    x = sym.Symbol('x')
+    function = function.strip("")
+    print(function)
+    derivitive = sym.diff(function)
+    print(derivitive)
 
 def Nuron(dataset):
     input = dataset[:-1]
@@ -169,4 +177,7 @@ def LinearLeastSquaresOptimization(y, x, weight, bias, learningRate):
 
 #ProblemOne()
 #ProblemTwo()
-ProblemThree()
+#ProblemThree()
+
+function = "1*x**9"
+Derivitive(function)
