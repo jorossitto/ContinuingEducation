@@ -34,5 +34,14 @@
     <Text Include="mazeData.txt">
       <Filter>Data</Filter>
     </Text>
+    <Text Include="data1.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="data2.txt">
+      <Filter>Data</Filter>
+    </Text>
+    <Text Include="data3.txt">
+      <Filter>Data</Filter>
+    </Text>
   </ItemGroup>
 </Project>

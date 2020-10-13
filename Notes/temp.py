@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import math
+
 """
 Spyder Editor
 
@@ -6,12 +8,12 @@ This is a temporary script file.
 """
 
 rate = 1.04
-term = 19
-amount = 51.06
+term = 20
+amount = 24.55
 
 interest = rate ** term
 
-print (interest)
+print (math.trunc(interest * 100), '%')
 total = amount * interest
 print(total)
 

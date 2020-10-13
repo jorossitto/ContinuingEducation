@@ -44,7 +44,7 @@ matrix matrix::operator=(const matrix& m)
 	return(*this);
 }
 
-matrix matrix::operator+=(matrix& m)
-{
-	return matrix();
-}
+//matrix matrix::operator+=(matrix& m)
+//{
+//	return matrix();
+//}

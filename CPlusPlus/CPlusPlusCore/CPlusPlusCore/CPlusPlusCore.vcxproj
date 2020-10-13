@@ -139,13 +139,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="brass.cpp" />
+    <ClCompile Include="inserts.cpp" />
     <ClCompile Include="matrix.cpp" />
+    <ClCompile Include="multmap.cpp" />
+    <ClCompile Include="setops.cpp" />
     <ClCompile Include="small.cpp" />
+    <ClCompile Include="smrtptrs.cpp" />
+    <ClCompile Include="STL.cpp" />
+    <ClCompile Include="tabtenn0.cpp" />
+    <ClCompile Include="usealgo.cpp" />
     <ClCompile Include="testclass.cpp" />
+    <ClCompile Include="usett0.cpp" />
+    <ClCompile Include="vect1.cpp" />
+    <ClCompile Include="vect2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="brass.h" />
+    <ClInclude Include="STL.h" />
     <ClInclude Include="matrix.h" />
     <ClInclude Include="small.h" />
+    <ClInclude Include="tabtenn0.h" />
     <ClInclude Include="testclass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

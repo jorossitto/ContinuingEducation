@@ -10,7 +10,7 @@
 #include "matrix.h"
 
 using namespace std;
-void readFile();
+void readFile(string mazeNumber);
 
 int main()
 {
@@ -21,11 +21,33 @@ int main()
 	//cout << m3(0, 0) << endl;
 	//m3 += m1;
 	//cout << "Now m3(0,0) = " << m3(0, 0);
-	readFile();
+	string maze;
+	cout << "What Maze To run? 1/2/3:";
+	cin >> maze;
+
+	string maze1 = "data1.txt";
+	string maze2 = "data2.txt";
+	string maze3 = "data3.txt";
+	string mazeNumber;
+
+	if (maze == "1")
+	{
+		mazeNumber = maze1;
+	}
+	if (maze == "2")
+	{
+		mazeNumber = maze2;
+	}
+	if (maze == "3")
+	{
+		mazeNumber = maze3;
+	}
+
+	readFile(mazeNumber);
 	return 0;
 }
 
-void readFile()
+void readFile(string mazeNumber)
 {
 	string mazeData;
 	bool timeToCreateMaze = true;
@@ -50,11 +72,15 @@ void readFile()
 	int endX = 0;
 	int endY = 0;
 
+	int maxX = 0;
+	int maxY = 0;
+
+
 	ifstream inFile;
 	matrix mazeBuilder;
 
 	//Criteria 1: Use file io
-	inFile.open("mazeData.txt");
+	inFile.open(mazeNumber);
 	if (!inFile) {
 		cout << "Unable to open file";
 		exit(1); // terminate with error
@@ -101,8 +127,8 @@ void readFile()
 			matrix initializeMaze(x+1, y+1);
 			mazeBuilder = initializeMaze;
 
-			
-			//mazeBuilder(initializeMaze);
+			//matrix newMaze(initializeMaze);
+			//matrix mazeBuilder(initializeMaze);
 
 			//cout << "building maze: " << x << y << endl;
 		}
@@ -139,31 +165,56 @@ void readFile()
 			bool shouldMoveUp = false;
 			bool moveLeftOpen = false;
 			bool shouldMoveLeft = false;
+			bool shouldMoveRight = false;
+			bool moveRightOpen = false;
+			bool moveDownOpen = false;
+			bool shouldMoveDown = false;
+			//Swap current X and current Y
+			//int temp = currentX;
+			//currentX = currentY;
+			//currentY = temp;
 
 			while (finished == false)
 			{
-				bool moveRightOpen =  mazeBuilder(currentX + 1, currentY) != 3;
-				bool shouldMoveRight = currentX < endX;
-				bool moveDownOpen = mazeBuilder(currentX, currentY + 1) != 3;
-				bool shouldMoveDown = currentY < endY;
-				if (currentY != 0)
+				if (currentX < endX)
 				{
-					bool moveUpOpen = mazeBuilder(currentX, currentY - 1) != 3;
-					bool shouldMoveUp = currentY > endY;
+					moveRightOpen = mazeBuilder(currentX + 1, currentY) != 3;
+					shouldMoveRight = currentX < endX;
 				}
 				else
 				{
-					bool moveUpOpen = false;
+					moveRightOpen = false;
+				}
+
+				if (currentY < endY)
+				{
+					moveDownOpen = mazeBuilder(currentX, currentY + 1) != 3;
+					shouldMoveDown = currentY < endY;
+				}
+				else
+				{
+					moveDownOpen = false;
+				}
+
+
+				if (currentY != 0)
+				{
+					moveUpOpen = mazeBuilder(currentX, currentY - 1) != 3;
+					shouldMoveUp = currentY > endY;
+				}
+				else
+				{
+					moveUpOpen = false;
 				}
 
 				if (currentX != 0)
 				{
-					bool moveLeftOpen = mazeBuilder(currentX - 1, currentY) != 3;
-					bool shouldMoveLeft = currentX > endX;
+					moveLeftOpen = mazeBuilder(currentX - 1, currentY) != 3;
+					shouldMoveLeft = currentX > endX;
 				}
 				else
 				{
-					bool moveLeftOpen = false;
+					moveLeftOpen = false;
 				}
 				
 				
@@ -179,6 +230,8 @@ void readFile()
 					mazeBuilder(currentX, currentY) = 0;
 					mazeBuilder(currentX + 1, currentY) = 1;
 					currentX = currentX + 1;
+					moveRightOpen = false;
+					shouldMoveRight = false;
 				}
 				else if (moveDownOpen && shouldMoveDown)
 				{
@@ -186,6 +239,8 @@ void readFile()
 					mazeBuilder(currentX, currentY) = 0;
 					mazeBuilder(currentX, currentY + 1) = 1;
 					currentY = currentY + 1;
+					moveDownOpen = false;
+					shouldMoveDown = false;
 				}
 				else if (moveLeftOpen && shouldMoveLeft)
 				{
@@ -193,6 +248,8 @@ void readFile()
 					mazeBuilder(currentX, currentY) = 0;
 					mazeBuilder(currentX - 1, currentY) = 1;
 					currentX = currentX - 1;
+					moveLeftOpen = false;
+					shouldMoveLeft = false;
 				}
 				else if (moveUpOpen && shouldMoveUp)
 				{
@@ -200,10 +257,14 @@ void readFile()
 					mazeBuilder(currentX, currentY) = 0;
 					mazeBuilder(currentX, currentY - 1) = 1;
 					currentY = currentY - 1;
+					moveUpOpen = false;
+					shouldMoveUp = false;
 				}
 				else
 				{
-					cout << "Help I am stuck!";
+					cout << "Current X" << currentX << " End X: " << endX << "move right open: " << moveRightOpen << "should move right: " << shouldMoveRight << endl;
+					cout << "Current Y" << currentY << " End Y: " << endY;
+					cout << "Help I am stuck!" << endl;
 				}
 
 				if (currentX == endX && currentY == endY)
@@ -220,8 +281,6 @@ void readFile()
 					cout << "break here and check program" << endl;
 				}
 			}
-			
-			
 		}
 		else
 		{

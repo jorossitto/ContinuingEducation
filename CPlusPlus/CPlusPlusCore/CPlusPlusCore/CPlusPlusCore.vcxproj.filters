@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\STLandTemplates">
+      <UniqueIdentifier>{4081dff9-e42b-4c05-90d8-b77b9ba04b09}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="small.cpp">
@@ -24,6 +27,39 @@
     <ClCompile Include="matrix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="usealgo.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="vect1.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="vect2.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="inserts.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="setops.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="multmap.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="smrtptrs.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="STL.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="usett0.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="tabtenn0.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
+    <ClCompile Include="brass.cpp">
+      <Filter>Source Files\STLandTemplates</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="testclass.h">
@@ -33,6 +69,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="small.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="STL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tabtenn0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="brass.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

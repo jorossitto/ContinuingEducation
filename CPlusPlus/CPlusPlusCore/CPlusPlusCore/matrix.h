@@ -12,7 +12,7 @@ public:
 	~matrix();//
 	int& operator()(int i, int j) { return p[i][j]; }
 	matrix operator=(const matrix& m);//avoid shallow copy by doing deep copy
-	matrix operator+=(matrix& m);
+	//matrix operator+=(matrix& m);
 
 };
 

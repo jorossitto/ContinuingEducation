@@ -147,6 +147,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="mazeData.txt" />
+    <Text Include="data1.txt" />
+    <Text Include="data2.txt" />
+    <Text Include="data3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
