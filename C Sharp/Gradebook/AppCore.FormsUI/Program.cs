@@ -14,7 +14,8 @@ namespace AppCore.FormsUI
         [STAThread]
         static void Main()
         {
-            Application.Run(new NeuralNetworkForm());
+            //Application.Run(new NeuralNetworkForm());
+            Application.Run(new ImageEditing());
         }
 
         private static void SamuraiForm()

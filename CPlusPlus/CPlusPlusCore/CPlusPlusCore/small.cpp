@@ -11,7 +11,7 @@
 using namespace std;
 using namespace testNamespace;
 
-int main()
+int small()
 {
 	//testClassTest();
 	//testMatrix();

@@ -49,7 +49,7 @@
             this.Controls.Add(this.Training);
             this.Name = "NeuralNetworkForm";
             this.Text = "NeuralNetworkForm";
-            this.Load += new System.EventHandler(this.NeuralNetworkForm_Load);
+            //this.Load += new System.EventHandler(this.NeuralNetworkForm_Load);
             this.ResumeLayout(false);
 
         }

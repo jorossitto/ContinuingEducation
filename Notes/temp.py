@@ -8,8 +8,8 @@ This is a temporary script file.
 """
 
 rate = 1.04
-term = 20
-amount = 24.55
+term = 21
+amount = 51.06
 
 interest = rate ** term
 

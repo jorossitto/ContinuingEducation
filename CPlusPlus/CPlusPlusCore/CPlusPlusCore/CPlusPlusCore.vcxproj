@@ -140,9 +140,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="brass.cpp" />
+    <ClCompile Include="Driver.cpp" />
     <ClCompile Include="inserts.cpp" />
     <ClCompile Include="matrix.cpp" />
     <ClCompile Include="multmap.cpp" />
+    <ClCompile Include="Resource.cpp" />
     <ClCompile Include="setops.cpp" />
     <ClCompile Include="small.cpp" />
     <ClCompile Include="smrtptrs.cpp" />
@@ -156,6 +158,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="brass.h" />
+    <ClInclude Include="Driver.h" />
+    <ClInclude Include="Resource.h" />
     <ClInclude Include="STL.h" />
     <ClInclude Include="matrix.h" />
     <ClInclude Include="small.h" />
