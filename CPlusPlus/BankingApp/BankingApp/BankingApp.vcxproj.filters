@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Accounts">
+      <UniqueIdentifier>{5ae75d55-8175-4772-932a-8286bdfe0791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.2 Customers">
+      <UniqueIdentifier>{a3662ddf-a42a-4be3-9f9b-0d1c461f8150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.3 ATMs">
+      <UniqueIdentifier>{3f19312c-533d-4338-801d-e9486da055a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.4 Banks">
+      <UniqueIdentifier>{48293680-245e-43c4-9c50-d9db9b303954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.1 Accounts">
+      <UniqueIdentifier>{dc23aeff-5cf0-4614-bb80-0d2015c0632a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.1 Accounts\Accounts">
+      <UniqueIdentifier>{fde9b4aa-9e78-4aac-be1b-a9162ac82fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.5 Traffic">
+      <UniqueIdentifier>{e264bb38-6c34-482e-86e4-b24e8f15735f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.35 Partition">
+      <UniqueIdentifier>{dabb168e-cb42-4482-ab69-677a62b00a81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2 Stastics keeper">
+      <UniqueIdentifier>{0455cc01-26f0-49d4-bfdb-9f36ece3c1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.45 Timing">
+      <UniqueIdentifier>{fc5d239a-02a5-4dec-97af-f52f72fbd6cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="BusinessChecking.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="BusinessSavings.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckingAccount.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="CODAccount.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="ForeignCurrencyAccount.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="HighVolumeCheckingAccount.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyMarketAccount.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalAccount.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="SavingsAccount.h">
+      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Customers.h">
+      <Filter>Header Files\1.2 Customers</Filter>
+    </ClInclude>
+    <ClInclude Include="ATM.h">
+      <Filter>Header Files\1.3 ATMs</Filter>
+    </ClInclude>
+    <ClInclude Include="Bank.h">
+      <Filter>Header Files\1.4 Banks</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficGenerator.h">
+      <Filter>Header Files\1.5 Traffic</Filter>
+    </ClInclude>
+    <ClInclude Include="Partition.h">
+      <Filter>Header Files\1.35 Partition</Filter>
+    </ClInclude>
+    <ClInclude Include="TimingWheel.h">
+      <Filter>Header Files\1.45 Timing</Filter>
+    </ClInclude>
+    <ClInclude Include="StatisticsKeeper.h">
+      <Filter>Header Files\2 Stastics keeper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="BusinessChecking.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="BusinessSavings.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckingAccount.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="CODAccount.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="ForeignCurrencyAccount.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="HighVolumeCheckingAccount.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyMarketAccount.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonalAccount.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="SavingsAccount.cpp">
+      <Filter>Source Files\Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="Customers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrafficGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StatisticsKeeper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bank.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ATM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Partition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimingWheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bankData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

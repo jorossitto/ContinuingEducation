@@ -1,0 +1,21 @@
+/*
+
+20160701
+Javascript for new Canvas UI
+Includes code for Google Analytics ONLY
+
+*/
+
+// Google Analytics
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-48494906-1', 'auto');
+ga('send', 'pageview');
+
+// Add this to your Custom JavaScript file in the CanvasLMS theme editor--accordion jqueryUI component
+!function(s,d,url,e,p){
+  e=d.createElement(s),p=d.getElementsByTagName(s)[0];e.async=1;e.src=url;p.parentNode.insertBefore(e,p)
+}('script', document, 'https://unpkg.com/widgetize-canvas-lms-user-content');

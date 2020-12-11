@@ -1,0 +1,12 @@
+.replies {  
+ padding-left: 7px;  
+ border-left: solid #939598 16px;  
+}  
+  
+.discussion-read-state-btn {  
+  top: 32px;  
+}  
+  
+div.entry-content {  
+  padding-left:0px !important;  
+}  

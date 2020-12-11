@@ -1,0 +1,20 @@
+California
+37
+Texas
+28
+Flordia
+19
+New York
+18
+Pennsylvania
+12
+Illinois
+12
+Ohio
+11
+Georgia
+9
+North Carolina
+9
+Michigan
+9
