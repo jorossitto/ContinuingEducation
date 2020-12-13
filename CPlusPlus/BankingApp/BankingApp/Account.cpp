@@ -1,5 +1,6 @@
 #include "Account.h"
 #include <iostream>
+#include <fstream>
 
 using namespace std;
 
@@ -12,6 +13,7 @@ Account::Account()
 	this->balance = 0;
 	this->interestRate = 1.1;
 	this->SSN = "000";
+	this->accountType = "Basic Account";
 }
 
 Account::Account(float balance, float interestRate, string SSN)
@@ -71,12 +73,21 @@ void Account::setAddress(std::string address)
 
 void Account::display()
 {
-	cout << "This is a regular account" << endl;
+	//cout << "This is a regular account" << endl;
 	cout << "Account number: " << accountID << endl;
 	std::cout << "Balance: " << balance << endl;
 	cout << "Interest Rate: " << interestRate << endl;
 	cout << "SSN: " << SSN << endl << endl;
 
+}
+
+void Account::reportDone()
+{
+	fstream myfile;
+	myfile.open("output.txt", fstream::app);
+	myfile << "Account number: " << this->accountID << ", " << this->accountType << " is done.  " << endl;
+	myfile.close();
+	cout << "Account number: " << this->accountID << ", " << this->accountType << " is done.  " << endl;
 }
 
 

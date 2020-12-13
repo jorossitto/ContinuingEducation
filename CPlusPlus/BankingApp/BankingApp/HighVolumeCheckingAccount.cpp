@@ -7,6 +7,7 @@ HighVolumeCheckingAccount::HighVolumeCheckingAccount()
 	account_count++;
 	string a_c = to_string(account_count);
 	this->accountID = 'A' + a_c + 'B' + hvc_s_a_c + "HV";
+	this->accountType = "High Volume Checking Account";
 }
 
 void HighVolumeCheckingAccount::display()

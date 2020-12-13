@@ -8,6 +8,7 @@ BusinessSavings::BusinessSavings()
 	string a_c = to_string(account_count);
 	this->accountID = 'A' + a_c + 'B' + b_s_a_c + 'S';
 	this->AddInterest();
+	this->accountType = "Business Savings";
 }
 
 void BusinessSavings::AddInterest()

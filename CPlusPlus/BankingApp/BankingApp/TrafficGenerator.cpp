@@ -10,19 +10,12 @@
 #include "BusinessSavings.h"
 #include "TimingWheel.h"
 
-//TrafficGenerator::TrafficGenerator()
-//{
-//	//this->customersLeft = customerBase - initialTraffic;
-//	this->customersLeft = customerBase;
-//	//this->time++;
-//
-//}
-
 TrafficGenerator::TrafficGenerator(Bank* bank, TimingWheel* timingWheel)
 {
 	this->timingWheel = timingWheel;
 	this->bank = bank;
 	this->customersLeft = customerBase;
+	this->statisticsKeeper = new StatisticsKeeper(bank);
 }
 
 void TrafficGenerator::CreateCustomer(int amount)
@@ -33,11 +26,12 @@ void TrafficGenerator::CreateCustomer(int amount)
 	{
 		//int serviceTime[2] = { 5,12 };
 		int randomServiceTime = rand() % 6 + 5;
-		cout << "Random service time" << randomServiceTime << endl;
+		this->statisticsKeeper->sumServiceTime(randomServiceTime);
+		//cout << "Random service time" << randomServiceTime << endl;
 		this->customersLeft--;
 		//customerList[this->customersLeft] = new Customers(this->time, randomServiceTime);
 		this->currentCustomer = new Customers(this->time, randomServiceTime);
-		bank->addCustomer(this->currentCustomer);
+		
 		//Customers* customer = new Customers(time);
 		//Customers customer(this->time, this->time);
 		int randomNumber = (rand() % 100 + 1);
@@ -50,7 +44,7 @@ void TrafficGenerator::CreateCustomer(int amount)
 			accountAmount = 1;
 		}
 		CreateAccounts(accountAmount);
-		
+		bank->addCustomer(this->currentCustomer);
 		//customer.addAccount();
 		//this->customers.push_back(customer);
 	}
@@ -59,24 +53,7 @@ void TrafficGenerator::CreateCustomer(int amount)
 
 void TrafficGenerator::CreateAccounts(int amount)
 {
-	//Account* accounts[8];
-	//accounts[0] = new SavingsAccount();
-	//accounts[1] = new CheckingAccount();
-	//accounts[2] = new MoneyMarketAccount();
-	//accounts[3] = new CODAccount();
-	//accounts[4] = new BusinessSavings();
-	//accounts[5] = new BusinessChecking();
-	//accounts[6] = new HighVolumeCheckingAccount();
-	//accounts[7] = new ForeignCurrencyAccount();
-	//float personalAccounts = 65;
-	//float businessAccounts = 100 - personalAccounts;
-	//std::set<int> savingAccounts = { 50,30 };
-	//std::set<int> checkingAccounts = { 30,55 };
-	//std::set<int> moneyMarketAccounts = { 8,0 };
-	//std::set<int> certificateOfDeposits = { 12,0 };
-	//std::set<int> highVolumeChecking = { 0,10 };
-	//std::set<int> foreignCurrency = { 0,5 };
-	//const int numberOfAccounts = amount;
+
 	int randomNumberAccount = (rand() % 100 + 1);
 	//Account* accounts[2];
 	//Account account;
@@ -161,6 +138,7 @@ void TrafficGenerator::CreateAccounts(int amount)
 			//customer.addAccount(accounts[amount]);
 			
 		}
+		//this->currentCustomer->Display();
 		//customerList[this->customersLeft]->addAccount(account);
 		//customerList[this->customersLeft].addAccount(account);
 		//this->customers.push_back(customer);
@@ -186,9 +164,13 @@ void TrafficGenerator::RunSimulation()
 	while (customersLeft > 0)
 	{
 		this->timingWheel->addTime();
+		this->time = this->timingWheel->getTime();
+		this->statisticsKeeper->setDurationOfSimulation(this->time);
 		this->timingWheel->schedule();
+		this->statisticsKeeper->Report();
+
 		int howManyCustomers = rand() % 3;
-		cout << "Creating " << howManyCustomers << " Customer[s] " << "We have " << customersLeft << "Customers left" << endl;
+		//cout << "Creating " << howManyCustomers << " Customer[s] " << "We have " << customersLeft << "Customers left" << endl;
 		this->customersLeft - howManyCustomers;
 		CreateCustomer(howManyCustomers);
 	}
@@ -199,9 +181,10 @@ void TrafficGenerator::RunSimulation()
 	//	i->Display();
 	//}
 	//Customers customer;
-	this->bank->getCustomers().back().Display();
-	this->bank->getCustomers().front().Display();
+	//this->bank->getCustomers().back().Display();
+	//this->bank->getCustomers().front().Display();
 
+	this->statisticsKeeper->printFinalStatus();
 	//this->customerList[1]->Display();
 	//this->customerList[10]->Display();
 	//this->customerList[100]->Display();

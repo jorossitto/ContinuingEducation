@@ -7,6 +7,7 @@ BusinessChecking::BusinessChecking()
 	account_count++;
 	string a_c = to_string(account_count);
 	this->accountID = 'A' + a_c + 'B' + b_s_a_c + 'C';
+	this->accountType = "Business Checking";
 }
 
 void BusinessChecking::display()

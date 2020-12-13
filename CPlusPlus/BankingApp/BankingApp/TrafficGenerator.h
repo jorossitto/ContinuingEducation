@@ -4,6 +4,8 @@
 #include <list>
 #include "Bank.h"
 #include "TimingWheel.h"
+#include "StatisticsKeeper.h"
+
 //This module generates the customer base, initial trafficand dynamic player traffic.The customer base is
 //the total number of customers that hold accounts in the bank.The initial traffic is the number of customers
 //in line to use the ATM when simulation starts.Dynamic player traffic are the customers that will arrive
@@ -66,6 +68,8 @@ private:
 	Bank* bank;
 	Customers* currentCustomer;
 	TimingWheel* timingWheel;
+	StatisticsKeeper* statisticsKeeper;
+
 
 
 protected:

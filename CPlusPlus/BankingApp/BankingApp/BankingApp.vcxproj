@@ -152,7 +152,6 @@
     <ClInclude Include="HighVolumeCheckingAccount.h" />
     <ClInclude Include="MoneyMarketAccount.h" />
     <ClInclude Include="Partition.h" />
-    <ClInclude Include="PersonalAccount.h" />
     <ClInclude Include="SavingsAccount.h" />
     <ClInclude Include="StatisticsKeeper.h" />
     <ClInclude Include="SystemController.h" />
@@ -173,7 +172,6 @@
     <ClCompile Include="HighVolumeCheckingAccount.cpp" />
     <ClCompile Include="MoneyMarketAccount.cpp" />
     <ClCompile Include="Partition.cpp" />
-    <ClCompile Include="PersonalAccount.cpp" />
     <ClCompile Include="SavingsAccount.cpp" />
     <ClCompile Include="StatisticsKeeper.cpp" />
     <ClCompile Include="SystemController.cpp" />
@@ -182,6 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="bankData.txt" />
+    <Text Include="output.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

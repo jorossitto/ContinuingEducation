@@ -13,7 +13,7 @@ class Customers
 {
 protected:
 	int customerID;
-	std::list<Account> accountsTest;
+	std::list<Account*> accountsTest;
 	Account* accounts[2];
 
 	int arrivalTime;
@@ -27,8 +27,9 @@ public:
 	Customers(int arrivalTime, int serviceTime);
 	void addAccount(int account, int accountType);
 	void calculateWaitingTime();
-	void Display();
+	virtual void Display();
 	int getServiceTime();
+	void report();
 	//void createAccounts(int howMany);
 };
 

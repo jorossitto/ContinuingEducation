@@ -37,11 +37,11 @@
     <Filter Include="Header Files\1.35 Partition">
       <UniqueIdentifier>{dabb168e-cb42-4482-ab69-677a62b00a81}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\2 Stastics keeper">
-      <UniqueIdentifier>{0455cc01-26f0-49d4-bfdb-9f36ece3c1c8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\1.45 Timing">
       <UniqueIdentifier>{fc5d239a-02a5-4dec-97af-f52f72fbd6cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\1.46 Stastics keeper">
+      <UniqueIdentifier>{0455cc01-26f0-49d4-bfdb-9f36ece3c1c8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -72,9 +72,6 @@
     <ClInclude Include="MoneyMarketAccount.h">
       <Filter>Header Files\1.1 Accounts\Accounts</Filter>
     </ClInclude>
-    <ClInclude Include="PersonalAccount.h">
-      <Filter>Header Files\1.1 Accounts\Accounts</Filter>
-    </ClInclude>
     <ClInclude Include="SavingsAccount.h">
       <Filter>Header Files\1.1 Accounts\Accounts</Filter>
     </ClInclude>
@@ -100,7 +97,7 @@
       <Filter>Header Files\1.45 Timing</Filter>
     </ClInclude>
     <ClInclude Include="StatisticsKeeper.h">
-      <Filter>Header Files\2 Stastics keeper</Filter>
+      <Filter>Header Files\1.46 Stastics keeper</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -129,9 +126,6 @@
       <Filter>Source Files\Accounts</Filter>
     </ClCompile>
     <ClCompile Include="MoneyMarketAccount.cpp">
-      <Filter>Source Files\Accounts</Filter>
-    </ClCompile>
-    <ClCompile Include="PersonalAccount.cpp">
       <Filter>Source Files\Accounts</Filter>
     </ClCompile>
     <ClCompile Include="SavingsAccount.cpp">
@@ -164,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="bankData.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="output.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

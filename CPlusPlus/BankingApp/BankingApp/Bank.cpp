@@ -10,6 +10,7 @@ Bank::Bank(int ATMS, string inputFile)
 {
 	this->ATMS = ATMS;
 	this->inputFile = inputFile;
+	this->customersServed = 0;
 	//this->trafficGenerator = TrafficGenerator();
 
 	for (int i = 0; i < ATMS; i++)
@@ -62,5 +63,13 @@ void Bank::addCustomer(Customers* customer)
 
 void Bank::serveCustomer()
 {
+	this->customersServed++;
+	Customers customer = customerQueue.front();
+	customer.report();
 	this->customerQueue.pop();
+}
+
+int Bank::getCustomersServed()
+{
+	return this->customersServed;
 }

@@ -13,6 +13,7 @@ private:
 	float DepositFee = 1.0;
 	float withdrawalFee = 2.5;
 	int b_checking_acc_count = 1;
+
 public:
 	BusinessChecking();
 	void Deposit(float amount, string accountID);

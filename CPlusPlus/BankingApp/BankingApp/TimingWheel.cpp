@@ -33,32 +33,32 @@ void TimingWheel::schedule()
 
 		//add the atm to its new TimeSlot
 		int waitingTime = nextCustomer.getServiceTime();
-		cout << "Waiting time" << waitingTime << endl;
+		//cout << "Waiting time" << waitingTime << endl;
 		list<ATM> nextATMList = timeSlots[waitingTime];
-		cout << "*" << timeSlots[waitingTime].size() << endl;
-		cout << "*" << nextATMList.size() << endl;
+		//cout << "*" << timeSlots[waitingTime].size() << endl;
+		//cout << "*" << nextATMList.size() << endl;
 		nextATMList.push_back(currentATM);
 		timeSlots[waitingTime] = nextATMList;
 		atmList.pop_front();
-		cout << "**" << timeSlots[waitingTime].size() << endl;
-		cout << "**" << nextATMList.size() << endl;
+		//cout << "**" << timeSlots[waitingTime].size() << endl;
+		//cout << "**" << nextATMList.size() << endl;
 	}
-	cout << "***" << atmList.size() << endl;
+	//cout << "***" << atmList.size() << endl;
 
 	//move the timeslots forward
 	list<ATM> emptyATMList;
-	cout << "Timing Wheel before pop and insert" << endl;
-	for (int i = 0; i < timeSlots.size(); i++)
-	{
-		cout << timeSlots[i].size() << endl;
-	}
-	cout << endl;
+	//cout << "Timing Wheel before pop and insert" << endl;
+	////for (int i = 0; i < timeSlots.size(); i++)
+	////{
+	////	cout << timeSlots[i].size() << endl;
+	////}
+	//cout << endl;
 	timeSlots.pop_back();
 	timeSlots.insert(timeSlots.begin(), emptyATMList);
-	for (int i = 0; i < timeSlots.size(); i++)
-	{
-		cout << timeSlots[i].size() << endl;
-	}
+	//for (int i = 0; i < timeSlots.size(); i++)
+	//{
+	//	cout << timeSlots[i].size() << endl;
+	//}
 }
 
 void TimingWheel::createTimeSlots()
@@ -78,3 +78,9 @@ void TimingWheel::addTime()
 {
 	this->time++;
 }
+
+int TimingWheel::getTime()
+{
+	return this->time;
+}
+

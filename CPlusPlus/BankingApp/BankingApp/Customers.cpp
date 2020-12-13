@@ -7,6 +7,9 @@
 #include "HighVolumeCheckingAccount.h"
 #include "MoneyMarketAccount.h"
 #include "BusinessSavings.h"
+#include <queue>
+#include <fstream>
+
 
 Customers::Customers()
 {
@@ -68,7 +71,7 @@ void Customers::addAccount(int account, int accountType)
 		accounts[account] = new ForeignCurrencyAccount();
 		//accounts[amount] = new ForeignCurrencyAccount();
 	}
-	this->accountsTest.push_back(*accounts[account]);
+	this->accountsTest.push_back(accounts[account]);
 
 }
 
@@ -109,16 +112,39 @@ void Customers::Display()
 	//	}
 	//}
 	//cout << "Your first account is " << 
-	typedef std::list<Account>::iterator AccountPointer;
+	//typedef std::unique_ptr<Account> AccountPointer;
+	typedef std::list<Account*>::iterator AccountPointer;
 	for (AccountPointer i = accountsTest.begin(); i != accountsTest.end(); i++)
 	{
-		i->display();
+		(*i)->display();
 	}
+	//for_each(accountsTest.begin(), accountsTest.end(), &Account::display);
+	//for_each()
 }
 
 int Customers::getServiceTime()
 {
 	return serviceTime;
+}
+
+void Customers::report()
+{
+	fstream myfile;
+	myfile.open("output.txt", fstream::app);
+	myfile << "Your customer ID is: " << customerID << endl;
+	myfile << "Your service time is: " << this->serviceTime << endl;
+	myfile << "Your accounts are: " << endl;
+	myfile.close();
+	cout << "Your customer ID is: " << customerID << endl;
+	cout << "Your service time is: " << this->serviceTime << endl;
+	cout << "Your accounts are: " << endl;
+
+	typedef std::list<Account*>::iterator AccountPointer;
+	for (AccountPointer i = accountsTest.begin(); i != accountsTest.end(); i++)
+	{
+		//(*i)->display();
+		(*i)->reportDone();
+	}
 }
 
 

@@ -5,6 +5,7 @@ CheckingAccount::CheckingAccount(float balance, std::string SSN) : Account(balan
 	checking_acc_count++;
 	string s_a_c = to_string(checking_acc_count);
 	this->accountID = accountID + 'P' + s_a_c + 'S';
+	this->accountType = "Personal Checking Account";
 }
 
 CheckingAccount::CheckingAccount()
@@ -15,6 +16,7 @@ CheckingAccount::CheckingAccount()
 	string a_c = to_string(account_count);
 	this->accountID = 'A' + a_c + 'P' + s_a_c + 'S';
 	SSN = "12345";
+	this->accountType = "Personal Checking Account";
 }
 void CheckingAccount::display()
 {

@@ -16,6 +16,7 @@ private:
 	list<ATM> atmList;
 	vector<list<ATM>> timeSlots;
 	Bank* bank;
+	int customersServed;
 
 public:
 	TimingWheel(Bank* bank);
@@ -23,5 +24,6 @@ public:
 	void schedule();
 	void createTimeSlots();
 	void addTime();
+	int getTime();
 };
 

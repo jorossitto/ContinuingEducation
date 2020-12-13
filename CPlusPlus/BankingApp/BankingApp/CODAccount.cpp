@@ -15,6 +15,7 @@ CODAccount::CODAccount()
 	this->withdrawalsAllowed = 1;
 	this->depositTime = 12;
 	this->interestGained = 0;
+	this->accountType = "COD Account";
 
 }
 

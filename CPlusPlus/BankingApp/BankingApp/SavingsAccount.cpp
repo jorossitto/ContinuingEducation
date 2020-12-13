@@ -6,6 +6,7 @@ SavingsAccount::SavingsAccount(float balance, float interestRate, std::string SS
 	string s_a_c = to_string(savings_acc_count);
 	this->accountID = accountID + 'P' + s_a_c + 'S';
 	interestRate = interestRate;
+	this->accountType = "Personal Savings Account";
 }
 
 SavingsAccount::SavingsAccount()
@@ -16,6 +17,7 @@ SavingsAccount::SavingsAccount()
 	//string a_c = to_string(account_count);
 	this->accountID = this->accountID +  'S' + savingAccountString;
 	//interestRate = interestRate;
+	this->accountType = "Personal Savings Account";
 }
 void SavingsAccount::display()
 {

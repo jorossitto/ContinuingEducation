@@ -1,4 +1,5 @@
 #pragma once
+#include "Bank.h"
 //c) Statistics Keeper
 //This component collects all the data needed for reporting statistics.The simulation must run for the time
 //specified by the user(we’ll use one iteration of the loop as one unit of time) and report statistics at the
@@ -27,10 +28,20 @@ private:
 	int totalAmountOfMoneyDeposited;
 	int totalAmountOfMoneyWithdrawn;
 	int numberOfRefillCashEventsGenerated;
+	int totalServiceTime;
+	int numberOfPeopleServiced;
+	Bank* bank;
 
 protected:
 
 public:
+	StatisticsKeeper(Bank* bank);
+	void Report();
+	void setDurationOfSimulation(int time);
+	void getNumberOfATMs();
+	void addCustomerServed();
+	void sumServiceTime(int Time);
+	void printFinalStatus();
 
 
 };

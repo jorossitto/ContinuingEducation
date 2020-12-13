@@ -17,6 +17,6 @@ private:
 public:
 	SavingsAccount();
 	SavingsAccount(float balance, float interestRate, std::string SSN);
-	void display() override;
+	void display();
 };
 

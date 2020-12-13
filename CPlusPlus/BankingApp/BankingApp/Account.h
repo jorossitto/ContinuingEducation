@@ -28,6 +28,7 @@ protected:
 	string SSN;
 	string name;
 	string address;
+	string accountType;
 	
 	//static int void accountCount = 0;
 
@@ -46,5 +47,5 @@ public:
 	void virtual display();
 	friend std::ostream& operator<<(std::ostream& os, Account& account);
 	//void setAccountId();
-
+	void reportDone();
 };

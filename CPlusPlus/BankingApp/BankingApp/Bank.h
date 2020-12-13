@@ -27,12 +27,12 @@ private:
 	ATM* chosenATM;
 	list<ATM> atmList;
 	queue<Customers> customerQueue;
+	int customersServed;
 
 
 protected:
 public:
 	Bank(int ATMS, string inputFile);
-	Bank();
 	void set_inputfile(string inputFile);
 	void set_atm_num(int ATMs);
 	void set_sim_time(int time);
@@ -42,6 +42,7 @@ public:
 	queue<Customers> getCustomers();
 	void addCustomer(Customers *customer);
 	void serveCustomer();
+	int getCustomersServed();
 
 
 };
