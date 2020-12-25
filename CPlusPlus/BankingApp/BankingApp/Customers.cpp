@@ -147,4 +147,9 @@ void Customers::report()
 	}
 }
 
+int Customers::getID()
+{
+	return this->customerID;
+}
+
 

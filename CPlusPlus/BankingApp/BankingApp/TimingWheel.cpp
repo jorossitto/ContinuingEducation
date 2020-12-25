@@ -30,6 +30,7 @@ void TimingWheel::schedule()
 		list<ATM> currentTimeslotATMList = timeSlots.back();
 		ATM currentATM = currentTimeslotATMList.front();
 		currentATM.setCurrentCustomer(nextCustomer);
+		cout << currentATM.getID() << " : Service Time :" << nextCustomer.getServiceTime() << ": Customer ID : " << nextCustomer.getID() << endl;
 
 		//add the atm to its new TimeSlot
 		int waitingTime = nextCustomer.getServiceTime();
@@ -55,10 +56,10 @@ void TimingWheel::schedule()
 	//cout << endl;
 	timeSlots.pop_back();
 	timeSlots.insert(timeSlots.begin(), emptyATMList);
-	//for (int i = 0; i < timeSlots.size(); i++)
-	//{
-	//	cout << timeSlots[i].size() << endl;
-	//}
+	for (int i = 0; i < timeSlots.size(); i++)
+	{
+		cout << timeSlots[i].size() << endl;
+	}
 }
 
 void TimingWheel::createTimeSlots()

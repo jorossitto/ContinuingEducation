@@ -30,3 +30,9 @@ void ATM::setCurrentCustomer(Customers customer)
 {
 	this->currentCustomer = customer;
 }
+
+int ATM::getID()
+{
+	return ATMID;
+}
+

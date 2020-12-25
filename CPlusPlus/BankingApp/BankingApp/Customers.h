@@ -30,6 +30,7 @@ public:
 	virtual void Display();
 	int getServiceTime();
 	void report();
+	int getID();
 	//void createAccounts(int howMany);
 };
 

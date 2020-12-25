@@ -16,6 +16,8 @@ public:
 	void joinQueue(Customers customer);
 	void leaveQueue();
 	void setCurrentCustomer(Customers customer);
+	int getID();
+
 
 };
 

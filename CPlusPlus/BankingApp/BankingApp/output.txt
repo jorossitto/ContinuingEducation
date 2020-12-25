@@ -6783,3 +6783,2657 @@ Duration of Simulation: 173
 Customers served: 95
 Average Service Time: 7
 
+Number of ATMS: 2
+Duration of Simulation: 1
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 2
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 3
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 4
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 5
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 6
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 7
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 8
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 9
+Customers served: 0
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 10
+Customers served: 0
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 11
+Customers served: 0
+Average Service Time: 7
+
+Your customer ID is: 1
+Your service time is: 10
+Your accounts are: 
+Account number: A1S1, Personal Savings Account is done.  
+Account number: A2, Money Market Account is done.  
+Your customer ID is: 2
+Your service time is: 9
+Your accounts are: 
+Account number: A3, Money Market Account is done.  
+Account number: A4, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 12
+Customers served: 2
+Average Service Time: 7
+
+Your customer ID is: 3
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 13
+Customers served: 3
+Average Service Time: 7
+
+Your customer ID is: 4
+Your service time is: 10
+Your accounts are: 
+Account number: A7S3, Personal Savings Account is done.  
+Your customer ID is: 5
+Your service time is: 5
+Your accounts are: 
+Account number: A8S4, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 14
+Customers served: 5
+Average Service Time: 7
+
+Your customer ID is: 6
+Your service time is: 9
+Your accounts are: 
+Account number: A9S5, Personal Savings Account is done.  
+Account number: A10D1, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 15
+Customers served: 6
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 16
+Customers served: 6
+Average Service Time: 7
+
+Your customer ID is: 7
+Your service time is: 5
+Your accounts are: 
+Account number: A11, Money Market Account is done.  
+Account number: A12S6, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 17
+Customers served: 7
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 18
+Customers served: 7
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 19
+Customers served: 7
+Average Service Time: 7
+
+Your customer ID is: 8
+Your service time is: 10
+Your accounts are: 
+Account number: A13D2, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 20
+Customers served: 8
+Average Service Time: 7
+
+Your customer ID is: 9
+Your service time is: 8
+Your accounts are: 
+Account number: A14, Money Market Account is done.  
+Account number: A15, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 21
+Customers served: 9
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 22
+Customers served: 9
+Average Service Time: 7
+
+Your customer ID is: 10
+Your service time is: 8
+Your accounts are: 
+Account number: A16, Money Market Account is done.  
+Account number: A17S7, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 23
+Customers served: 10
+Average Service Time: 7
+
+Your customer ID is: 11
+Your service time is: 9
+Your accounts are: 
+Account number: A18, Money Market Account is done.  
+Account number: A19S8, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 24
+Customers served: 11
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 25
+Customers served: 11
+Average Service Time: 7
+
+Your customer ID is: 12
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 13
+Your service time is: 5
+Your accounts are: 
+Account number: A22S10, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 26
+Customers served: 13
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 27
+Customers served: 13
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 28
+Customers served: 13
+Average Service Time: 7
+
+Your customer ID is: 14
+Your service time is: 7
+Your accounts are: 
+Account number: A23S11, Personal Savings Account is done.  
+Account number: A24S12, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 29
+Customers served: 14
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 30
+Customers served: 14
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 31
+Customers served: 14
+Average Service Time: 7
+
+Your customer ID is: 15
+Your service time is: 8
+Your accounts are: 
+Account number: A25S13, Personal Savings Account is done.  
+Account number: A26S14, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 32
+Customers served: 15
+Average Service Time: 7
+
+Your customer ID is: 16
+Your service time is: 8
+Your accounts are: 
+Account number: A27S15, Personal Savings Account is done.  
+Account number: A28, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 33
+Customers served: 16
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 34
+Customers served: 16
+Average Service Time: 7
+
+Your customer ID is: 17
+Your service time is: 5
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 35
+Customers served: 17
+Average Service Time: 7
+
+Your customer ID is: 18
+Your service time is: 5
+Your accounts are: 
+Account number: A31S16, Personal Savings Account is done.  
+Account number: A32S17, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 36
+Customers served: 18
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 37
+Customers served: 18
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 38
+Customers served: 18
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 39
+Customers served: 18
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 40
+Customers served: 18
+Average Service Time: 7
+
+Your customer ID is: 19
+Your service time is: 7
+Your accounts are: 
+Account number: A33S18, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 41
+Customers served: 19
+Average Service Time: 7
+
+Your customer ID is: 20
+Your service time is: 6
+Your accounts are: 
+Account number: A34S19, Personal Savings Account is done.  
+Account number: A35, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 42
+Customers served: 20
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 43
+Customers served: 20
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 44
+Customers served: 20
+Average Service Time: 7
+
+Your customer ID is: 21
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 45
+Customers served: 21
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 46
+Customers served: 21
+Average Service Time: 7
+
+Your customer ID is: 22
+Your service time is: 9
+Your accounts are: 
+Account number: A38, Money Market Account is done.  
+Account number: A39, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 47
+Customers served: 22
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 48
+Customers served: 22
+Average Service Time: 7
+
+Your customer ID is: 23
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 24
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 49
+Customers served: 24
+Average Service Time: 7
+
+Your customer ID is: 25
+Your service time is: 7
+Your accounts are: 
+Account number: A44S21, Personal Savings Account is done.  
+Account number: A45, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 50
+Customers served: 25
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 51
+Customers served: 25
+Average Service Time: 7
+
+Your customer ID is: 26
+Your service time is: 8
+Your accounts are: 
+Account number: A46S22, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 52
+Customers served: 26
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 53
+Customers served: 26
+Average Service Time: 7
+
+Your customer ID is: 27
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 54
+Customers served: 27
+Average Service Time: 7
+
+Your customer ID is: 28
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 29
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 55
+Customers served: 29
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 56
+Customers served: 29
+Average Service Time: 7
+
+Your customer ID is: 30
+Your service time is: 5
+Your accounts are: 
+Account number: A53, Money Market Account is done.  
+Account number: A54S26, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 57
+Customers served: 30
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 58
+Customers served: 30
+Average Service Time: 7
+
+Your customer ID is: 31
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 59
+Customers served: 31
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 60
+Customers served: 31
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 61
+Customers served: 31
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 62
+Customers served: 31
+Average Service Time: 7
+
+Your customer ID is: 32
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 33
+Your service time is: 5
+Your accounts are: 
+Account number: A58D3, COD Account is done.  
+Account number: A59, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 63
+Customers served: 33
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 64
+Customers served: 33
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 65
+Customers served: 33
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 66
+Customers served: 33
+Average Service Time: 7
+
+Your customer ID is: 34
+Your service time is: 6
+Your accounts are: 
+Account number: A60D4, COD Account is done.  
+Account number: A61S27, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 67
+Customers served: 34
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 68
+Customers served: 34
+Average Service Time: 7
+
+Your customer ID is: 35
+Your service time is: 5
+Your accounts are: 
+Account number: A62, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 69
+Customers served: 35
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 70
+Customers served: 35
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 71
+Customers served: 35
+Average Service Time: 7
+
+Your customer ID is: 36
+Your service time is: 7
+Your accounts are: 
+Account number: A63, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 72
+Customers served: 36
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 73
+Customers served: 36
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 74
+Customers served: 36
+Average Service Time: 7
+
+Your customer ID is: 37
+Your service time is: 8
+Your accounts are: 
+Account number: A64S28, Personal Savings Account is done.  
+Account number: A65S29, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 75
+Customers served: 37
+Average Service Time: 7
+
+Your customer ID is: 38
+Your service time is: 10
+Your accounts are: 
+Account number: A66, Money Market Account is done.  
+Account number: A67S30, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 76
+Customers served: 38
+Average Service Time: 7
+
+Your customer ID is: 39
+Your service time is: 6
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 77
+Customers served: 39
+Average Service Time: 7
+
+Your customer ID is: 40
+Your service time is: 9
+Your accounts are: 
+Account number: A70D5, COD Account is done.  
+Account number: A71S33, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 78
+Customers served: 40
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 79
+Customers served: 40
+Average Service Time: 7
+
+Your customer ID is: 41
+Your service time is: 8
+Your accounts are: 
+Account number: A72, Money Market Account is done.  
+Account number: A73S34, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 80
+Customers served: 41
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 81
+Customers served: 41
+Average Service Time: 7
+
+Your customer ID is: 42
+Your service time is: 7
+Your accounts are: 
+Account number: A74S35, Personal Savings Account is done.  
+Account number: A75, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 82
+Customers served: 42
+Average Service Time: 7
+
+Your customer ID is: 43
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 83
+Customers served: 43
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 84
+Customers served: 43
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 85
+Customers served: 43
+Average Service Time: 7
+
+Your customer ID is: 44
+Your service time is: 6
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 86
+Customers served: 44
+Average Service Time: 7
+
+Your customer ID is: 45
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 87
+Customers served: 45
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 88
+Customers served: 45
+Average Service Time: 7
+
+Your customer ID is: 46
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 89
+Customers served: 46
+Average Service Time: 7
+
+Your customer ID is: 47
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 90
+Customers served: 47
+Average Service Time: 7
+
+Your customer ID is: 48
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 91
+Customers served: 48
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 92
+Customers served: 48
+Average Service Time: 7
+
+Your customer ID is: 49
+Your service time is: 6
+Your accounts are: 
+Account number: A86S39, Personal Savings Account is done.  
+Account number: A87, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 93
+Customers served: 49
+Average Service Time: 7
+
+Your customer ID is: 50
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 94
+Customers served: 50
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 95
+Customers served: 50
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 96
+Customers served: 50
+Average Service Time: 7
+
+Your customer ID is: 51
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 97
+Customers served: 51
+Average Service Time: 7
+
+Your customer ID is: 52
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 98
+Customers served: 52
+Average Service Time: 7
+
+Your customer ID is: 53
+Your service time is: 8
+Your accounts are: 
+Account number: A93S41, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 99
+Customers served: 53
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 100
+Customers served: 53
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 101
+Customers served: 53
+Average Service Time: 7
+
+Your customer ID is: 54
+Your service time is: 6
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Your customer ID is: 55
+Your service time is: 8
+Your accounts are: 
+Account number: A95S42, Personal Savings Account is done.  
+Account number: A96, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 102
+Customers served: 55
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 103
+Customers served: 55
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 104
+Customers served: 55
+Average Service Time: 7
+
+Your customer ID is: 56
+Your service time is: 10
+Your accounts are: 
+Account number: A97, Money Market Account is done.  
+Account number: A98D6, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 105
+Customers served: 56
+Average Service Time: 7
+
+Your customer ID is: 57
+Your service time is: 10
+Your accounts are: 
+Account number: A99S43, Personal Savings Account is done.  
+Account number: A100S44, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 106
+Customers served: 57
+Average Service Time: 7
+
+Your customer ID is: 58
+Your service time is: 6
+Your accounts are: 
+Account number: A101, Money Market Account is done.  
+Account number: A102S45, Personal Savings Account is done.  
+Your customer ID is: 59
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 107
+Customers served: 59
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 108
+Customers served: 59
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 109
+Customers served: 59
+Average Service Time: 7
+
+Your customer ID is: 60
+Your service time is: 6
+Your accounts are: 
+Account number: A105D7, COD Account is done.  
+Account number: A106D8, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 110
+Customers served: 60
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 111
+Customers served: 60
+Average Service Time: 7
+
+Your customer ID is: 61
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 112
+Customers served: 61
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 113
+Customers served: 61
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 114
+Customers served: 61
+Average Service Time: 7
+
+Your customer ID is: 62
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 115
+Customers served: 62
+Average Service Time: 7
+
+Your customer ID is: 63
+Your service time is: 8
+Your accounts are: 
+Account number: A111S48, Personal Savings Account is done.  
+Account number: A112S49, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 116
+Customers served: 63
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 117
+Customers served: 63
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 118
+Customers served: 63
+Average Service Time: 7
+
+Your customer ID is: 64
+Your service time is: 10
+Your accounts are: 
+Account number: A113, Money Market Account is done.  
+Account number: A114S50, Personal Savings Account is done.  
+Your customer ID is: 65
+Your service time is: 9
+Your accounts are: 
+Account number: A115D9, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 119
+Customers served: 65
+Average Service Time: 7
+
+Your customer ID is: 66
+Your service time is: 6
+Your accounts are: 
+Account number: A116, Money Market Account is done.  
+Account number: A117, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 120
+Customers served: 66
+Average Service Time: 7
+
+Your customer ID is: 67
+Your service time is: 7
+Your accounts are: 
+Account number: A118D10, COD Account is done.  
+Account number: A119S51, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 121
+Customers served: 67
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 122
+Customers served: 67
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 123
+Customers served: 67
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 124
+Customers served: 67
+Average Service Time: 7
+
+Your customer ID is: 68
+Your service time is: 5
+Your accounts are: 
+Account number: A120S52, Personal Savings Account is done.  
+Account number: A121, Money Market Account is done.  
+Your customer ID is: 69
+Your service time is: 8
+Your accounts are: 
+Account number: A122, Money Market Account is done.  
+Account number: A123S53, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 125
+Customers served: 69
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 126
+Customers served: 69
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 127
+Customers served: 69
+Average Service Time: 7
+
+Your customer ID is: 70
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 128
+Customers served: 70
+Average Service Time: 7
+
+Your customer ID is: 71
+Your service time is: 9
+Your accounts are: 
+Account number: A126S56, Personal Savings Account is done.  
+Account number: A127, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 129
+Customers served: 71
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 130
+Customers served: 71
+Average Service Time: 7
+
+Your customer ID is: 72
+Your service time is: 5
+Your accounts are: 
+Account number: A128, Money Market Account is done.  
+Account number: A129, Money Market Account is done.  
+Your customer ID is: 73
+Your service time is: 5
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 131
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 132
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 133
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 134
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 135
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 136
+Customers served: 73
+Average Service Time: 7
+
+Your customer ID is: 74
+Your service time is: 7
+Your accounts are: 
+Account number: A132, Money Market Account is done.  
+Your customer ID is: 75
+Your service time is: 6
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 137
+Customers served: 75
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 138
+Customers served: 75
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 139
+Customers served: 75
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 140
+Customers served: 75
+Average Service Time: 7
+
+Your customer ID is: 76
+Your service time is: 6
+Your accounts are: 
+Account number: A135, Money Market Account is done.  
+Account number: A136, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 141
+Customers served: 76
+Average Service Time: 7
+
+Your customer ID is: 77
+Your service time is: 5
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 142
+Customers served: 77
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 143
+Customers served: 77
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 144
+Customers served: 77
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 145
+Customers served: 77
+Average Service Time: 7
+
+Your customer ID is: 78
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 146
+Customers served: 78
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 147
+Customers served: 78
+Average Service Time: 7
+
+Your customer ID is: 79
+Your service time is: 10
+Your accounts are: 
+Account number: A141, Money Market Account is done.  
+Account number: A142, Money Market Account is done.  
+Your customer ID is: 80
+Your service time is: 6
+Your accounts are: 
+Account number: A143, Money Market Account is done.  
+Account number: A144D11, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 148
+Customers served: 80
+Average Service Time: 7
+
+Your customer ID is: 81
+Your service time is: 6
+Your accounts are: 
+Account number: A145D12, COD Account is done.  
+Account number: A146D13, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 149
+Customers served: 81
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 150
+Customers served: 81
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 151
+Customers served: 81
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 152
+Customers served: 81
+Average Service Time: 7
+
+Your customer ID is: 82
+Your service time is: 5
+Your accounts are: 
+Account number: A147, Money Market Account is done.  
+Account number: A148D14, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 153
+Customers served: 82
+Average Service Time: 7
+
+Your customer ID is: 83
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 154
+Customers served: 83
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 155
+Customers served: 83
+Average Service Time: 7
+
+Your customer ID is: 84
+Your service time is: 6
+Your accounts are: 
+Account number: A151, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 156
+Customers served: 84
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 157
+Customers served: 84
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 158
+Customers served: 84
+Average Service Time: 7
+
+Your customer ID is: 85
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 159
+Customers served: 85
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 160
+Customers served: 85
+Average Service Time: 7
+
+Your customer ID is: 86
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 87
+Your service time is: 6
+Your accounts are: 
+Account number: A156S63, Personal Savings Account is done.  
+Account number: A157, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 161
+Customers served: 87
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 162
+Customers served: 87
+Average Service Time: 7
+
+Your customer ID is: 88
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 163
+Customers served: 88
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 164
+Customers served: 88
+Average Service Time: 7
+
+Your customer ID is: 89
+Your service time is: 6
+Your accounts are: 
+Account number: A160S64, Personal Savings Account is done.  
+Account number: A161S65, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 165
+Customers served: 89
+Average Service Time: 7
+
+Your customer ID is: 90
+Your service time is: 8
+Your accounts are: 
+Account number: A162, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 166
+Customers served: 90
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 167
+Customers served: 90
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 168
+Customers served: 90
+Average Service Time: 7
+
+Your customer ID is: 91
+Your service time is: 10
+Your accounts are: 
+Account number: A163S66, Personal Savings Account is done.  
+Account number: A164S67, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 169
+Customers served: 91
+Average Service Time: 7
+
+Your customer ID is: 92
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 93
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 170
+Customers served: 93
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 171
+Customers served: 93
+Average Service Time: 7
+
+Your customer ID is: 94
+Your service time is: 7
+Your accounts are: 
+Account number: A169S70, Personal Savings Account is done.  
+Account number: A170S71, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 172
+Customers served: 94
+Average Service Time: 7
+
+Your customer ID is: 95
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 173
+Customers served: 95
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 173
+Customers served: 95
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 1
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 2
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 3
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 4
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 5
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 6
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 7
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 8
+Customers served: 0
+Average Service Time: 8
+
+Number of ATMS: 2
+Duration of Simulation: 9
+Customers served: 0
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 10
+Customers served: 0
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 11
+Customers served: 0
+Average Service Time: 7
+
+Your customer ID is: 1
+Your service time is: 10
+Your accounts are: 
+Account number: A1S1, Personal Savings Account is done.  
+Account number: A2, Money Market Account is done.  
+Your customer ID is: 2
+Your service time is: 9
+Your accounts are: 
+Account number: A3, Money Market Account is done.  
+Account number: A4, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 12
+Customers served: 2
+Average Service Time: 7
+
+Your customer ID is: 3
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 13
+Customers served: 3
+Average Service Time: 7
+
+Your customer ID is: 4
+Your service time is: 10
+Your accounts are: 
+Account number: A7S3, Personal Savings Account is done.  
+Your customer ID is: 5
+Your service time is: 5
+Your accounts are: 
+Account number: A8S4, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 14
+Customers served: 5
+Average Service Time: 7
+
+Your customer ID is: 6
+Your service time is: 9
+Your accounts are: 
+Account number: A9S5, Personal Savings Account is done.  
+Account number: A10D1, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 15
+Customers served: 6
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 16
+Customers served: 6
+Average Service Time: 7
+
+Your customer ID is: 7
+Your service time is: 5
+Your accounts are: 
+Account number: A11, Money Market Account is done.  
+Account number: A12S6, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 17
+Customers served: 7
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 18
+Customers served: 7
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 19
+Customers served: 7
+Average Service Time: 7
+
+Your customer ID is: 8
+Your service time is: 10
+Your accounts are: 
+Account number: A13D2, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 20
+Customers served: 8
+Average Service Time: 7
+
+Your customer ID is: 9
+Your service time is: 8
+Your accounts are: 
+Account number: A14, Money Market Account is done.  
+Account number: A15, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 21
+Customers served: 9
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 22
+Customers served: 9
+Average Service Time: 7
+
+Your customer ID is: 10
+Your service time is: 8
+Your accounts are: 
+Account number: A16, Money Market Account is done.  
+Account number: A17S7, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 23
+Customers served: 10
+Average Service Time: 7
+
+Your customer ID is: 11
+Your service time is: 9
+Your accounts are: 
+Account number: A18, Money Market Account is done.  
+Account number: A19S8, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 24
+Customers served: 11
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 25
+Customers served: 11
+Average Service Time: 7
+
+Your customer ID is: 12
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 13
+Your service time is: 5
+Your accounts are: 
+Account number: A22S10, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 26
+Customers served: 13
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 27
+Customers served: 13
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 28
+Customers served: 13
+Average Service Time: 7
+
+Your customer ID is: 14
+Your service time is: 7
+Your accounts are: 
+Account number: A23S11, Personal Savings Account is done.  
+Account number: A24S12, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 29
+Customers served: 14
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 30
+Customers served: 14
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 31
+Customers served: 14
+Average Service Time: 7
+
+Your customer ID is: 15
+Your service time is: 8
+Your accounts are: 
+Account number: A25S13, Personal Savings Account is done.  
+Account number: A26S14, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 32
+Customers served: 15
+Average Service Time: 7
+
+Your customer ID is: 16
+Your service time is: 8
+Your accounts are: 
+Account number: A27S15, Personal Savings Account is done.  
+Account number: A28, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 33
+Customers served: 16
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 34
+Customers served: 16
+Average Service Time: 7
+
+Your customer ID is: 17
+Your service time is: 5
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 35
+Customers served: 17
+Average Service Time: 7
+
+Your customer ID is: 18
+Your service time is: 5
+Your accounts are: 
+Account number: A31S16, Personal Savings Account is done.  
+Account number: A32S17, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 36
+Customers served: 18
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 37
+Customers served: 18
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 38
+Customers served: 18
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 39
+Customers served: 18
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 40
+Customers served: 18
+Average Service Time: 7
+
+Your customer ID is: 19
+Your service time is: 7
+Your accounts are: 
+Account number: A33S18, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 41
+Customers served: 19
+Average Service Time: 7
+
+Your customer ID is: 20
+Your service time is: 6
+Your accounts are: 
+Account number: A34S19, Personal Savings Account is done.  
+Account number: A35, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 42
+Customers served: 20
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 43
+Customers served: 20
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 44
+Customers served: 20
+Average Service Time: 7
+
+Your customer ID is: 21
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 45
+Customers served: 21
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 46
+Customers served: 21
+Average Service Time: 7
+
+Your customer ID is: 22
+Your service time is: 9
+Your accounts are: 
+Account number: A38, Money Market Account is done.  
+Account number: A39, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 47
+Customers served: 22
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 48
+Customers served: 22
+Average Service Time: 7
+
+Your customer ID is: 23
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 24
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 49
+Customers served: 24
+Average Service Time: 7
+
+Your customer ID is: 25
+Your service time is: 7
+Your accounts are: 
+Account number: A44S21, Personal Savings Account is done.  
+Account number: A45, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 50
+Customers served: 25
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 51
+Customers served: 25
+Average Service Time: 7
+
+Your customer ID is: 26
+Your service time is: 8
+Your accounts are: 
+Account number: A46S22, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 52
+Customers served: 26
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 53
+Customers served: 26
+Average Service Time: 7
+
+Your customer ID is: 27
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 54
+Customers served: 27
+Average Service Time: 7
+
+Your customer ID is: 28
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 29
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 55
+Customers served: 29
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 56
+Customers served: 29
+Average Service Time: 7
+
+Your customer ID is: 30
+Your service time is: 5
+Your accounts are: 
+Account number: A53, Money Market Account is done.  
+Account number: A54S26, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 57
+Customers served: 30
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 58
+Customers served: 30
+Average Service Time: 7
+
+Your customer ID is: 31
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 59
+Customers served: 31
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 60
+Customers served: 31
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 61
+Customers served: 31
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 62
+Customers served: 31
+Average Service Time: 7
+
+Your customer ID is: 32
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 33
+Your service time is: 5
+Your accounts are: 
+Account number: A58D3, COD Account is done.  
+Account number: A59, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 63
+Customers served: 33
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 64
+Customers served: 33
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 65
+Customers served: 33
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 66
+Customers served: 33
+Average Service Time: 7
+
+Your customer ID is: 34
+Your service time is: 6
+Your accounts are: 
+Account number: A60D4, COD Account is done.  
+Account number: A61S27, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 67
+Customers served: 34
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 68
+Customers served: 34
+Average Service Time: 7
+
+Your customer ID is: 35
+Your service time is: 5
+Your accounts are: 
+Account number: A62, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 69
+Customers served: 35
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 70
+Customers served: 35
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 71
+Customers served: 35
+Average Service Time: 7
+
+Your customer ID is: 36
+Your service time is: 7
+Your accounts are: 
+Account number: A63, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 72
+Customers served: 36
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 73
+Customers served: 36
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 74
+Customers served: 36
+Average Service Time: 7
+
+Your customer ID is: 37
+Your service time is: 8
+Your accounts are: 
+Account number: A64S28, Personal Savings Account is done.  
+Account number: A65S29, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 75
+Customers served: 37
+Average Service Time: 7
+
+Your customer ID is: 38
+Your service time is: 10
+Your accounts are: 
+Account number: A66, Money Market Account is done.  
+Account number: A67S30, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 76
+Customers served: 38
+Average Service Time: 7
+
+Your customer ID is: 39
+Your service time is: 6
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 77
+Customers served: 39
+Average Service Time: 7
+
+Your customer ID is: 40
+Your service time is: 9
+Your accounts are: 
+Account number: A70D5, COD Account is done.  
+Account number: A71S33, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 78
+Customers served: 40
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 79
+Customers served: 40
+Average Service Time: 7
+
+Your customer ID is: 41
+Your service time is: 8
+Your accounts are: 
+Account number: A72, Money Market Account is done.  
+Account number: A73S34, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 80
+Customers served: 41
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 81
+Customers served: 41
+Average Service Time: 7
+
+Your customer ID is: 42
+Your service time is: 7
+Your accounts are: 
+Account number: A74S35, Personal Savings Account is done.  
+Account number: A75, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 82
+Customers served: 42
+Average Service Time: 7
+
+Your customer ID is: 43
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 83
+Customers served: 43
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 84
+Customers served: 43
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 85
+Customers served: 43
+Average Service Time: 7
+
+Your customer ID is: 44
+Your service time is: 6
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 86
+Customers served: 44
+Average Service Time: 7
+
+Your customer ID is: 45
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 87
+Customers served: 45
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 88
+Customers served: 45
+Average Service Time: 7
+
+Your customer ID is: 46
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 89
+Customers served: 46
+Average Service Time: 7
+
+Your customer ID is: 47
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 90
+Customers served: 47
+Average Service Time: 7
+
+Your customer ID is: 48
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 91
+Customers served: 48
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 92
+Customers served: 48
+Average Service Time: 7
+
+Your customer ID is: 49
+Your service time is: 6
+Your accounts are: 
+Account number: A86S39, Personal Savings Account is done.  
+Account number: A87, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 93
+Customers served: 49
+Average Service Time: 7
+
+Your customer ID is: 50
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 94
+Customers served: 50
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 95
+Customers served: 50
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 96
+Customers served: 50
+Average Service Time: 7
+
+Your customer ID is: 51
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 97
+Customers served: 51
+Average Service Time: 7
+
+Your customer ID is: 52
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 98
+Customers served: 52
+Average Service Time: 7
+
+Your customer ID is: 53
+Your service time is: 8
+Your accounts are: 
+Account number: A93S41, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 99
+Customers served: 53
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 100
+Customers served: 53
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 101
+Customers served: 53
+Average Service Time: 7
+
+Your customer ID is: 54
+Your service time is: 6
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Your customer ID is: 55
+Your service time is: 8
+Your accounts are: 
+Account number: A95S42, Personal Savings Account is done.  
+Account number: A96, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 102
+Customers served: 55
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 103
+Customers served: 55
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 104
+Customers served: 55
+Average Service Time: 7
+
+Your customer ID is: 56
+Your service time is: 10
+Your accounts are: 
+Account number: A97, Money Market Account is done.  
+Account number: A98D6, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 105
+Customers served: 56
+Average Service Time: 7
+
+Your customer ID is: 57
+Your service time is: 10
+Your accounts are: 
+Account number: A99S43, Personal Savings Account is done.  
+Account number: A100S44, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 106
+Customers served: 57
+Average Service Time: 7
+
+Your customer ID is: 58
+Your service time is: 6
+Your accounts are: 
+Account number: A101, Money Market Account is done.  
+Account number: A102S45, Personal Savings Account is done.  
+Your customer ID is: 59
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 107
+Customers served: 59
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 108
+Customers served: 59
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 109
+Customers served: 59
+Average Service Time: 7
+
+Your customer ID is: 60
+Your service time is: 6
+Your accounts are: 
+Account number: A105D7, COD Account is done.  
+Account number: A106D8, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 110
+Customers served: 60
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 111
+Customers served: 60
+Average Service Time: 7
+
+Your customer ID is: 61
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 112
+Customers served: 61
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 113
+Customers served: 61
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 114
+Customers served: 61
+Average Service Time: 7
+
+Your customer ID is: 62
+Your service time is: 7
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 115
+Customers served: 62
+Average Service Time: 7
+
+Your customer ID is: 63
+Your service time is: 8
+Your accounts are: 
+Account number: A111S48, Personal Savings Account is done.  
+Account number: A112S49, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 116
+Customers served: 63
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 117
+Customers served: 63
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 118
+Customers served: 63
+Average Service Time: 7
+
+Your customer ID is: 64
+Your service time is: 10
+Your accounts are: 
+Account number: A113, Money Market Account is done.  
+Account number: A114S50, Personal Savings Account is done.  
+Your customer ID is: 65
+Your service time is: 9
+Your accounts are: 
+Account number: A115D9, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 119
+Customers served: 65
+Average Service Time: 7
+
+Your customer ID is: 66
+Your service time is: 6
+Your accounts are: 
+Account number: A116, Money Market Account is done.  
+Account number: A117, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 120
+Customers served: 66
+Average Service Time: 7
+
+Your customer ID is: 67
+Your service time is: 7
+Your accounts are: 
+Account number: A118D10, COD Account is done.  
+Account number: A119S51, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 121
+Customers served: 67
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 122
+Customers served: 67
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 123
+Customers served: 67
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 124
+Customers served: 67
+Average Service Time: 7
+
+Your customer ID is: 68
+Your service time is: 5
+Your accounts are: 
+Account number: A120S52, Personal Savings Account is done.  
+Account number: A121, Money Market Account is done.  
+Your customer ID is: 69
+Your service time is: 8
+Your accounts are: 
+Account number: A122, Money Market Account is done.  
+Account number: A123S53, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 125
+Customers served: 69
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 126
+Customers served: 69
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 127
+Customers served: 69
+Average Service Time: 7
+
+Your customer ID is: 70
+Your service time is: 10
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 128
+Customers served: 70
+Average Service Time: 7
+
+Your customer ID is: 71
+Your service time is: 9
+Your accounts are: 
+Account number: A126S56, Personal Savings Account is done.  
+Account number: A127, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 129
+Customers served: 71
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 130
+Customers served: 71
+Average Service Time: 7
+
+Your customer ID is: 72
+Your service time is: 5
+Your accounts are: 
+Account number: A128, Money Market Account is done.  
+Account number: A129, Money Market Account is done.  
+Your customer ID is: 73
+Your service time is: 5
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 131
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 132
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 133
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 134
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 135
+Customers served: 73
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 136
+Customers served: 73
+Average Service Time: 7
+
+Your customer ID is: 74
+Your service time is: 7
+Your accounts are: 
+Account number: A132, Money Market Account is done.  
+Your customer ID is: 75
+Your service time is: 6
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 137
+Customers served: 75
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 138
+Customers served: 75
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 139
+Customers served: 75
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 140
+Customers served: 75
+Average Service Time: 7
+
+Your customer ID is: 76
+Your service time is: 6
+Your accounts are: 
+Account number: A135, Money Market Account is done.  
+Account number: A136, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 141
+Customers served: 76
+Average Service Time: 7
+
+Your customer ID is: 77
+Your service time is: 5
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 142
+Customers served: 77
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 143
+Customers served: 77
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 144
+Customers served: 77
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 145
+Customers served: 77
+Average Service Time: 7
+
+Your customer ID is: 78
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 146
+Customers served: 78
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 147
+Customers served: 78
+Average Service Time: 7
+
+Your customer ID is: 79
+Your service time is: 10
+Your accounts are: 
+Account number: A141, Money Market Account is done.  
+Account number: A142, Money Market Account is done.  
+Your customer ID is: 80
+Your service time is: 6
+Your accounts are: 
+Account number: A143, Money Market Account is done.  
+Account number: A144D11, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 148
+Customers served: 80
+Average Service Time: 7
+
+Your customer ID is: 81
+Your service time is: 6
+Your accounts are: 
+Account number: A145D12, COD Account is done.  
+Account number: A146D13, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 149
+Customers served: 81
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 150
+Customers served: 81
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 151
+Customers served: 81
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 152
+Customers served: 81
+Average Service Time: 7
+
+Your customer ID is: 82
+Your service time is: 5
+Your accounts are: 
+Account number: A147, Money Market Account is done.  
+Account number: A148D14, COD Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 153
+Customers served: 82
+Average Service Time: 7
+
+Your customer ID is: 83
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 154
+Customers served: 83
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 155
+Customers served: 83
+Average Service Time: 7
+
+Your customer ID is: 84
+Your service time is: 6
+Your accounts are: 
+Account number: A151, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 156
+Customers served: 84
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 157
+Customers served: 84
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 158
+Customers served: 84
+Average Service Time: 7
+
+Your customer ID is: 85
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B1S, Business Savings is done.  
+Number of ATMS: 2
+Duration of Simulation: 159
+Customers served: 85
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 160
+Customers served: 85
+Average Service Time: 7
+
+Your customer ID is: 86
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 87
+Your service time is: 6
+Your accounts are: 
+Account number: A156S63, Personal Savings Account is done.  
+Account number: A157, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 161
+Customers served: 87
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 162
+Customers served: 87
+Average Service Time: 7
+
+Your customer ID is: 88
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B2C, Business Checking is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 163
+Customers served: 88
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 164
+Customers served: 88
+Average Service Time: 7
+
+Your customer ID is: 89
+Your service time is: 6
+Your accounts are: 
+Account number: A160S64, Personal Savings Account is done.  
+Account number: A161S65, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 165
+Customers served: 89
+Average Service Time: 7
+
+Your customer ID is: 90
+Your service time is: 8
+Your accounts are: 
+Account number: A162, Money Market Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 166
+Customers served: 90
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 167
+Customers served: 90
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 168
+Customers served: 90
+Average Service Time: 7
+
+Your customer ID is: 91
+Your service time is: 10
+Your accounts are: 
+Account number: A163S66, Personal Savings Account is done.  
+Account number: A164S67, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 169
+Customers served: 91
+Average Service Time: 7
+
+Your customer ID is: 92
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Your customer ID is: 93
+Your service time is: 8
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2HV, High Volume Checking Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 170
+Customers served: 93
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 171
+Customers served: 93
+Average Service Time: 7
+
+Your customer ID is: 94
+Your service time is: 7
+Your accounts are: 
+Account number: A169S70, Personal Savings Account is done.  
+Account number: A170S71, Personal Savings Account is done.  
+Number of ATMS: 2
+Duration of Simulation: 172
+Customers served: 94
+Average Service Time: 7
+
+Your customer ID is: 95
+Your service time is: 9
+Your accounts are: 
+Account number: A-842150450B1S, Business Savings is done.  
+Account number: A-842150450B2C, Business Checking is done.  
+Number of ATMS: 2
+Duration of Simulation: 173
+Customers served: 95
+Average Service Time: 7
+
+Number of ATMS: 2
+Duration of Simulation: 173
+Customers served: 95
+Average Service Time: 7
+

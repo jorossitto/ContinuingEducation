@@ -40,8 +40,7 @@ int main()
 	//mybank.simulate(); // System Controller
 	//mybank.report(); // Statistic Keeper
 	TimingWheel* timingWheel = new TimingWheel(mybank);
-
-	TrafficGenerator trafficGenerator = TrafficGenerator(mybank, timingWheel);
+	TrafficGenerator trafficGenerator(mybank, timingWheel);
 	trafficGenerator.RunSimulation();
 
 	return 0;
