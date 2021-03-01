@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<students>
+	<student>
+		<firstName>Bill</firstName>
+		<lastName>Baker</lastName>
+		<id>123456</id>
+		<test1>85</test1>
+		<test2>89</test2>
+	</student>
+	<student>
+		<firstName>Sally</firstName>
+		<lastName>Simpson</lastName>
+		<id>654321</id>
+		<test1>88</test1>
+		<test2>92</test2>
+	</student>
+	<student firstName="Mark" lastName="Mathews" id="147852" test1="99" test2="92"></student>
+</students>
