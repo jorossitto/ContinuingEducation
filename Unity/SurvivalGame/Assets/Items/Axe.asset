@@ -16,6 +16,6 @@ MonoBehaviour:
   description: Chop some wood with this
   type: 1
   icon: {fileID: 21300000, guid: 2ec3f5ea97d2cc6448ea19bf87c0c740, type: 3}
-  dropPrefab: {fileID: 0}
+  dropPrefab: {fileID: 1370386925534026632, guid: 02ae7dfbfec0b794bbc36cfaf948990c, type: 3}
   canStack: 0
   maxStackAmount: 0

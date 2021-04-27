@@ -16,6 +16,6 @@ MonoBehaviour:
   description: Deals good damage
   type: 1
   icon: {fileID: 21300000, guid: bd42fc8ab2fde474c982e7de5dfb178d, type: 3}
-  dropPrefab: {fileID: 0}
+  dropPrefab: {fileID: 2211172104784848432, guid: feddb001f720aec448281a10de4303f0, type: 3}
   canStack: 0
   maxStackAmount: 0

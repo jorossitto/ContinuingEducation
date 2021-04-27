@@ -16,6 +16,6 @@ MonoBehaviour:
   description: This is a food you can eat.
   type: 2
   icon: {fileID: 21300000, guid: 29780df225ecf8d4da778101dc307fee, type: 3}
-  dropPrefab: {fileID: 0}
+  dropPrefab: {fileID: 1943864112235061695, guid: 9facf80995d1945419ca63c9189849e4, type: 3}
   canStack: 1
-  maxStackAmount: 12
+  maxStackAmount: 999

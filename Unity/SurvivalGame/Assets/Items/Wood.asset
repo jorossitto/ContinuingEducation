@@ -16,6 +16,6 @@ MonoBehaviour:
   description: use this for houses
   type: 0
   icon: {fileID: 21300000, guid: 2905107fd0319f04689cd7e9b897369b, type: 3}
-  dropPrefab: {fileID: 0}
+  dropPrefab: {fileID: 1033806213743490263, guid: 873368ca1e1484e4baeb369fb3778923, type: 3}
   canStack: 1
   maxStackAmount: 12

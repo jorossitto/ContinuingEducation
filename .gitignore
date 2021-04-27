@@ -396,3 +396,17 @@ MigrationBackup/
 *.cache
 Gradebook/.vs/Gradebook/v16/.suo
 *.zip
+
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+/[Bb]uilds/
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
